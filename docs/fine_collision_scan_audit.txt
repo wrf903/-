@@ -1,0 +1,15 @@
+Fine collision + conservative DiffDrive mesh scan audit
+
+Source terrain: terrain_alpha2_h15/mesh.obj visual, generated collision_mesh.obj
+Collision mesh: 161 x 161 vertices, 0.125 m spacing, Gaussian sigma 0.28 m, z offset -0.005 m
+Route source: collision_mesh.obj, not visual mesh and not old 40x40 tile boxes
+Scan targets: 16
+Route waypoints: 108
+Route length: 58.06 m
+First segment: (-5.00, -4.50) -> (-5.00, -4.00)
+Min drive-box clearance: 1.00 m
+Max route grade: 0.217
+Max route edge dz: 0.109 m
+Kinematic route-follow simulation: max cross-track 0.50 m, min clearance 1.01 m
+Rover changes: wheel radius 0.105 m, width 0.085 m, chassis lift 0.12 m, conservative DiffDrive limits.
+Note: this is a controller/math audit, not a Gazebo physics run. Gazebo still needs local verification.
